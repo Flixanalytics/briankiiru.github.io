@@ -1,0 +1,130 @@
+<html><head><base href="/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brian Karani</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+</head>
+<body>
+
+<div class="loader">
+  <div class="loader-animation">
+    <div class="loader-circle"></div>
+    <div class="loader-circle"></div>
+  </div>
+</div>
+
+<nav>
+  <div class="nav-toggle">
+    <i class="fas fa-bars"></i>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+    <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+    <li><a href="#articles"><i class="fas fa-newspaper"></i> Articles</a></li>
+    <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-image">
+        <div class="profile-placeholder">
+          <img src="karan.png" alt="" class="Profile-placeholder">
+          
+        </div>
+      </div>
+      <div class="name-animation">
+        <h1></h1>
+      </div>
+      <div class="title-animation">
+        <p>Machine Learning Engineer | Data Analyst | Economics Student</p>
+      </div>
+      <div class="skills-cloud" id="skills-cloud">
+        <!-- Skills will be populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-section" id="about">
+  <div class="about-container">
+    <div class="about-content">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-card">
+        <div class="about-text">
+          <p>As a 4th Year Economics & Statistics Student at Chuka University, I combine my passion for data science with economic principles to derive meaningful insights. My journey in Machine Learning and Data Analysis has equipped me with a unique perspective on solving complex problems.</p>
+          <p>I specialize in developing ML models, conducting economic research, and creating data-driven solutions that bridge the gap between theory and practical applications.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-item">
+            <i class="fas fa-project-diagram"></i>
+            <h3>10+</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-file-alt"></i>
+            <h3>15+</h3>
+            <p>Articles Written</p>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-code"></i>
+            <h3>2+</h3>
+            <p>Years Coding</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<h2 class="section-title">Skills</h2>
+<section class="skills-section" id="skills">
+  <div class="skills-grid">
+    <!-- Skills will be populated by JavaScript -->
+  </div>
+</section>
+
+<h2 class="section-title">Projects</h2>
+<section class="projects-section" id="projects">
+  <div class="project-grid" id="projectGrid"></div>
+</section>
+
+<h2 class="section-title">Articles</h2>
+<section id="articles" class="loading">
+  <h2>Latest Articles</h2>
+  <div id="articlesContainer" class="articles-grid"></div> <!-- This will be populated dynamically -->
+</section>
+
+<section class="contact-section" id="contact">
+  <h2 class="section-title">Get in Touch</h2>
+  <div class="social-icons">
+    <a href="https://linkedin.com/in/brian-karani-08b98025b" class="social-icon">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://github.com/flixanalytics" class="social-icon">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="mailto:kiiru058@gmail.com" class="social-icon">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://facebook.com/karani.b" class="social-icon">
+      <i class="fab fa-facebook"></i>
+    </a>
+  </div>
+</section>
+
+
+<script src="https://kit.fontawesome.com/your-kit-code.js"></script>
+<script src="articles.js"></script>
+<script src="index.js"></script>
+</body></html>
